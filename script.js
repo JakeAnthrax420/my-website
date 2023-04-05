@@ -58,11 +58,12 @@ ScrollReveal().reveal('.home-content p, .about-content', {origin : 'right'});
 
 
 const typed = new Typed('.typing', {
-    strings: ['Web Developer', 'Freelancer', 'Designer', 'Programmer', 'Online Seller'],
+    strings: ['Web Developer', 'Freelancer', 'Designer', 'Programmer', 'Online Seller',  ],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
-    Audio: true,
+    // Audio: true,
+    
     // preStringTyped : function(){
     //     playSound();
     // },
